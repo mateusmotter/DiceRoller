@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.container {
+  margin: 40px auto;
+  max-width: 400px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.dice-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.die-face {
+  font-size: 80px; /* Or larger if needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.loader {
+  font-size: 24px;
+  margin: 20px;
+}
+
+.result-history {
+  margin-top: 30px;
+}
+
+.btn-lg {
+  /* Style for larger button */
+  padding: 15px 30px;
+  font-size: 18px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.result-list div {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.history-dices {
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+}
